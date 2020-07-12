@@ -832,17 +832,29 @@ input:focus {
     #mblogo h2 {
         font-size: 25px;
     }
+    #contactpar {
+        margin-top: 23px;
+    }
+    .homeoneside {
+        font-size: 11px;
+    }
 }
 
 @media only screen and (max-width: 1237px){
     #matlg h4 {
         font-size: 25px;
     }
+    .carpartfr {
+        margin: 0 17px;
+    }
 }
 
 @media only screen and (max-width: 1100px){
     #authortext p {
         font-size: 20px;
+    }
+    .contentmb {
+        margin: 10px 0;
     }
 }
 
@@ -933,6 +945,12 @@ input:focus {
     #navit a {
         font-size: 1px;
     }
+    #brbaltxt {
+        font-size: 25px;
+    }
+    .amgsec {
+        margin-top: 15px;
+    }
     
 }
 
@@ -941,11 +959,17 @@ input:focus {
         margin-left: 190px;
         margin-bottom: 20px;
     }
+    .mbstop {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 586px){
     #navit a {
         font-size: 13px;
+    }
+    #firstbox {
+        margin-left: 22px;
     }
 }
 
