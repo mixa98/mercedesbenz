@@ -935,7 +935,12 @@ input:focus {
     #brblg {
         margin-bottom: 60px;
     }
-    
+    #aboutbrb p {
+        font-size: 20px;
+    }
+    #location iframe {
+        width: 500px;
+    }
 
     
     
@@ -970,6 +975,174 @@ input:focus {
     }
     #firstbox {
         margin-left: 22px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    #navlg1{
+        margin-left: 40%;
+    }
+    #mblogo {
+        margin-left: 25%;
+    }
+    #matlg {
+        margin-left: 25%;
+    }
+    #abouttext p {
+        margin-left: 25%;
+        margin-right: 10%;
+    }
+    .social p {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #foologo h4{
+        font-size: 18px;
+    }
+    #foologo {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    #fooveh {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    #foolink {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    #foocon {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    #row {
+        width: 90%;
+    }
+    #whymbtext h3 {
+        margin-left: 20%;
+    }
+    #whymbtext p {
+        margin-left: 20%;
+        
+    }
+    .classitem {
+        margin-left: 20%;
+    }
+    .amgttx img {
+        margin-left: 30%;
+    }
+    .amgttx h3 {
+        margin-left: 10%;
+    }
+    .amgttx p {
+        margin-left: 10%;
+    }
+    #aboutbrb {
+        display: none;
+    }
+    .brabustext h3 {
+        margin-left: 30%;
+    }
+    .brabustext p {
+        margin-left: 20%;
+        
+    }
+    #moremodels {
+        display: none;
+    }
+    #location iframe {
+        width: 400px;
+    }
+    .row1 {
+        margin-left: 10%;
+    }
+    #authortext p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 519px){
+    #navpartnav a {
+        font-size: 10px;
+    }
+    #whymbtext h3 {
+        font-size: 20px;
+    }
+    #whymbtext p {
+        font-size: 15px;
+        
+    }
+    #othcar img {
+        margin-left: 20%;
+    }
+    .amgttx img {
+        margin-left: 25%;
+    }
+    .amgttx h3 {
+        margin-left: 20%;
+    }
+    .amgttx p {
+        margin-left: 20%;
+    }
+    .brabustext p {
+        margin-left: 30%;
+        
+    }
+    #location iframe {
+        width: 320px;
+        height: 350px;
+    }
+    #contactsocial {
+        display: none;
+    }
+    #matfoolg {
+        margin-left: 35%;
+    }
+}
+
+@media only screen and (max-width: 412px){
+    #navpartnav ul {
+        display: block;
+    }
+    #navpartnav a {
+        margin: 0 40% 0 40%;
+        
+    }
+    #modal {
+        display: none;
+    }
+    #othcar img {
+        margin-left: 10%;
+    }
+    #othbrb img {
+        margin-left: 20%;
+    }
+    .amgttx img {
+        margin-left: 20px;
+    }
+    #brblg img {
+        margin-left: 15%;
+    }
+    .ccl {
+        font-size: 20px;
+    }
+    #location iframe {
+        width: 250px;
+        height: 280px;
+    }
+    #copyright p {
+        margin-bottom: 20px;
+        margin-left: 10%;
+        
+    }
+    #matfooic a {
+        margin-left: 30px;
+    }
+    #socauthor {
+        display: none;
     }
 }
 
